@@ -1,0 +1,40 @@
+# Xcode build output
+DerivedData/
+build/
+.build/
+
+# User and machine-local state
+.DS_Store
+.git-app-builder-flow-backup/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+.swiftpm/
+
+# Local environment, credentials, and logs
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.orig
+*~
+
+# App Store signing/export files that should stay local
+*.mobileprovision
+*.p12
+*.cer
+*.xcarchive
+ExportOptions.plist
+
+# Root-level design exports
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.html
+
+# Local planning assets and non-app Skill work
+skills/
+docs/ui-design/
+docs/superpowers/

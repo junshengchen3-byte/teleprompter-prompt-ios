@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* TeleprompterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* TeleprompterApp.swift */; };
+		100000000000000000000102 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* HomeView.swift */; };
+		100000000000000000000103 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* AppRoute.swift */; };
+		100000000000000000000104 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* Script.swift */; };
+		100000000000000000000105 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* AppSettings.swift */; };
+		100000000000000000000106 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* Formatters.swift */; };
+		100000000000000000000107 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* DesignSystem.swift */; };
+		100000000000000000000108 /* ScriptListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* ScriptListView.swift */; };
+		100000000000000000000109 /* ScriptEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* ScriptEditorView.swift */; };
+		10000000000000000000010A /* ScriptPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* ScriptPickerView.swift */; };
+		10000000000000000000010B /* TeleprompterSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* TeleprompterSession.swift */; };
+		10000000000000000000010C /* TeleprompterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* TeleprompterTextView.swift */; };
+		10000000000000000000010D /* TeleprompterControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* TeleprompterControlsView.swift */; };
+		10000000000000000000010E /* CountdownOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* CountdownOverlayView.swift */; };
+		10000000000000000000010F /* PromptModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* PromptModeView.swift */; };
+		100000000000000000000110 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* PermissionService.swift */; };
+		100000000000000000000111 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* CameraPreviewView.swift */; };
+		100000000000000000000112 /* CameraRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* CameraRecordingService.swift */; };
+		100000000000000000000113 /* CameraPromptModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* CameraPromptModeView.swift */; };
+		100000000000000000000114 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* SettingsView.swift */; };
+		100000000000000000000115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* Assets.xcassets */; };
+		100000000000000000000116 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* PrivacyInfo.xcprivacy */; };
+		100000000000000000000201 /* ScriptMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000021 /* ScriptMetricsTests.swift */; };
+		100000000000000000000202 /* AppSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000022 /* AppSettingsTests.swift */; };
+		100000000000000000000203 /* TeleprompterSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000023 /* TeleprompterSessionTests.swift */; };
+		100000000000000000000204 /* ScriptSortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000024 /* ScriptSortingTests.swift */; };
+		100000000000000000000301 /* HomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000031 /* HomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000701;
+			remoteInfo = TeleprompterApp;
+		};
+		100000000000000000000402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000701;
+			remoteInfo = TeleprompterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* TeleprompterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterApp.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell/HomeView.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell/AppRoute.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Script.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppSettings.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Formatters.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* ScriptListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptLibrary/ScriptListView.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* ScriptEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptLibrary/ScriptEditorView.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* ScriptPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptLibrary/ScriptPickerView.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* TeleprompterSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterCore/TeleprompterSession.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* TeleprompterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterCore/TeleprompterTextView.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* TeleprompterControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterCore/TeleprompterControlsView.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* CountdownOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterCore/CountdownOverlayView.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* PromptModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptMode/PromptModeView.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions/PermissionService.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromptMode/CameraPreviewView.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* CameraRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromptMode/CameraRecordingService.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* CameraPromptModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromptMode/CameraPromptModeView.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings/SettingsView.swift; sourceTree = "<group>"; };
+		100000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000017 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		100000000000000000000021 /* ScriptMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptMetricsTests.swift; sourceTree = "<group>"; };
+		100000000000000000000022 /* AppSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsTests.swift; sourceTree = "<group>"; };
+		100000000000000000000023 /* TeleprompterSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterSessionTests.swift; sourceTree = "<group>"; };
+		100000000000000000000024 /* ScriptSortingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptSortingTests.swift; sourceTree = "<group>"; };
+		100000000000000000000031 /* HomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITests.swift; sourceTree = "<group>"; };
+		100000000000000000000501 /* TeleprompterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleprompterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000502 /* TeleprompterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleprompterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000503 /* TeleprompterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleprompterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000601 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000602 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000603 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000800 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000801 /* TeleprompterApp */,
+				100000000000000000000802 /* TeleprompterAppTests */,
+				100000000000000000000803 /* TeleprompterAppUITests */,
+				100000000000000000000804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000801 /* TeleprompterApp */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* TeleprompterApp.swift */,
+				100000000000000000000002 /* HomeView.swift */,
+				100000000000000000000003 /* AppRoute.swift */,
+				100000000000000000000004 /* Script.swift */,
+				100000000000000000000005 /* AppSettings.swift */,
+				100000000000000000000006 /* Formatters.swift */,
+				100000000000000000000007 /* DesignSystem.swift */,
+				100000000000000000000008 /* ScriptListView.swift */,
+				100000000000000000000009 /* ScriptEditorView.swift */,
+				10000000000000000000000A /* ScriptPickerView.swift */,
+				10000000000000000000000B /* TeleprompterSession.swift */,
+				10000000000000000000000C /* TeleprompterTextView.swift */,
+				10000000000000000000000D /* TeleprompterControlsView.swift */,
+				10000000000000000000000E /* CountdownOverlayView.swift */,
+				10000000000000000000000F /* PromptModeView.swift */,
+				100000000000000000000010 /* PermissionService.swift */,
+				100000000000000000000011 /* CameraPreviewView.swift */,
+				100000000000000000000012 /* CameraRecordingService.swift */,
+				100000000000000000000013 /* CameraPromptModeView.swift */,
+				100000000000000000000014 /* SettingsView.swift */,
+				100000000000000000000015 /* Assets.xcassets */,
+				100000000000000000000016 /* Info.plist */,
+				100000000000000000000017 /* PrivacyInfo.xcprivacy */,
+			);
+			path = TeleprompterApp;
+			sourceTree = "<group>";
+		};
+		100000000000000000000802 /* TeleprompterAppTests */ = {isa = PBXGroup; children = (100000000000000000000021, 100000000000000000000022, 100000000000000000000023, 100000000000000000000024); path = TeleprompterAppTests; sourceTree = "<group>"; };
+		100000000000000000000803 /* TeleprompterAppUITests */ = {isa = PBXGroup; children = (100000000000000000000031); path = TeleprompterAppUITests; sourceTree = "<group>"; };
+		100000000000000000000804 /* Products */ = {isa = PBXGroup; children = (100000000000000000000501, 100000000000000000000502, 100000000000000000000503); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000701 /* TeleprompterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000A01 /* Build configuration list for PBXNativeTarget "TeleprompterApp" */;
+			buildPhases = (100000000000000000000B01, 100000000000000000000601, 100000000000000000000C01);
+			buildRules = ();
+			dependencies = ();
+			name = TeleprompterApp;
+			productName = TeleprompterApp;
+			productReference = 100000000000000000000501 /* TeleprompterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000702 /* TeleprompterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000A02 /* Build configuration list for PBXNativeTarget "TeleprompterAppTests" */;
+			buildPhases = (100000000000000000000B02, 100000000000000000000602);
+			buildRules = ();
+			dependencies = (100000000000000000000405 /* PBXTargetDependency */);
+			name = TeleprompterAppTests;
+			productName = TeleprompterAppTests;
+			productReference = 100000000000000000000502 /* TeleprompterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		100000000000000000000703 /* TeleprompterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000A03 /* Build configuration list for PBXNativeTarget "TeleprompterAppUITests" */;
+			buildPhases = (100000000000000000000B03, 100000000000000000000603);
+			buildRules = ();
+			dependencies = (100000000000000000000406 /* PBXTargetDependency */);
+			name = TeleprompterAppUITests;
+			productName = TeleprompterAppUITests;
+			productReference = 100000000000000000000503 /* TeleprompterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					100000000000000000000701 = {CreatedOnToolsVersion = 16.0;};
+					100000000000000000000702 = {CreatedOnToolsVersion = 16.0; TestTargetID = 100000000000000000000701;};
+					100000000000000000000703 = {CreatedOnToolsVersion = 16.0; TestTargetID = 100000000000000000000701;};
+				};
+			};
+			buildConfigurationList = 100000000000000000000A00 /* Build configuration list for PBXProject "TeleprompterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, zh_Hans);
+			mainGroup = 100000000000000000000800;
+			productRefGroup = 100000000000000000000804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000701, 100000000000000000000702, 100000000000000000000703);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000C01 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000115, 100000000000000000000116); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000B01 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000101, 100000000000000000000102, 100000000000000000000103, 100000000000000000000104, 100000000000000000000105, 100000000000000000000106, 100000000000000000000107, 100000000000000000000108, 100000000000000000000109, 10000000000000000000010A, 10000000000000000000010B, 10000000000000000000010C, 10000000000000000000010D, 10000000000000000000010E, 10000000000000000000010F, 100000000000000000000110, 100000000000000000000111, 100000000000000000000112, 100000000000000000000113, 100000000000000000000114); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000B02 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000201, 100000000000000000000202, 100000000000000000000203, 100000000000000000000204); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000B03 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000301); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000405 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000701 /* TeleprompterApp */; targetProxy = 100000000000000000000401 /* PBXContainerItemProxy */; };
+		100000000000000000000406 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000701 /* TeleprompterApp */; targetProxy = 100000000000000000000402 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000D01 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_DYNAMIC_NO_PIC = NO; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LOCALIZATION_PREFERS_STRING_CATALOGS = YES; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		100000000000000000000D02 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LOCALIZATION_PREFERS_STRING_CATALOGS = YES; MTL_ENABLE_DEBUG_INFO = NO; MTL_FAST_MATH = YES; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES; }; name = Release; };
+		100000000000000000000D11 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TeleprompterApp/Info.plist; INFOPLIST_KEY_CFBundleDisplayName = "提词器Prompt"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		100000000000000000000D12 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TeleprompterApp/Info.plist; INFOPLIST_KEY_CFBundleDisplayName = "提词器Prompt"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		100000000000000000000D21 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleprompterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeleprompterApp"; }; name = Debug; };
+		100000000000000000000D22 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleprompterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeleprompterApp"; }; name = Release; };
+		100000000000000000000D31 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = TeleprompterApp; }; name = Debug; };
+		100000000000000000000D32 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.sheng.teleprompterprompt.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = TeleprompterApp; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000A00 /* Build configuration list for PBXProject "TeleprompterApp" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000D01, 100000000000000000000D02); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000A01 /* Build configuration list for PBXNativeTarget "TeleprompterApp" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000D11, 100000000000000000000D12); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000A02 /* Build configuration list for PBXNativeTarget "TeleprompterAppTests" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000D21, 100000000000000000000D22); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000A03 /* Build configuration list for PBXNativeTarget "TeleprompterAppUITests" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000D31, 100000000000000000000D32); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000900 /* Project object */;
+}

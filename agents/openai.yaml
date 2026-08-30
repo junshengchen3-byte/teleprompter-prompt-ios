@@ -1,0 +1,3 @@
+display_name: 提词器Prompt
+short_description: iOS/iPadOS teleprompter app for local script management, fullscreen prompting, and in-app camera prompting
+default_prompt: 维护提词器Prompt iOS App。优先保持 SwiftUI 原生实现、本地 SwiftData 存储、全屏提词、拍摄提词、设置和 App Store 发布准备一致；修改前先检查真实工程状态，遇到卡点要说明原因和处理方式。
